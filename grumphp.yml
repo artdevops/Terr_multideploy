@@ -3,7 +3,7 @@ grumphp:
         git_branch_name:
             whitelist:
                 #- "/JIRA-([0-9]*)/"
-                - "/devlop/"
+                - "/devlop-([0-9]*)/"
             blacklist:
                 - "develop"
                 - "master"
