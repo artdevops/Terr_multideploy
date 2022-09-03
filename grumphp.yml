@@ -1,2 +1,11 @@
 grumphp:
-    tasks: { git_branch_name: null }
+    tasks:
+        git_branch_name:
+            whitelist:
+                #- "/JIRA-([0-9]*)/"
+                - "/devlop/"
+            blacklist:
+                - "develop"
+                - "master"
+            additional_modifiers: ''
+            allow_detached_head: true
