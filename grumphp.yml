@@ -1,0 +1,2 @@
+grumphp:
+    tasks: { git_branch_name: null }
